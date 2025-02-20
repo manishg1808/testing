@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Editing Tool</title>
+  <link rel="stylesheet" href="s.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#photo-editor">Photo Editor</a></li>
+      <li><a href="#features">Features</a></li>
+    </ul>
+  </nav>
+
+  <!-- Photo Editor Section -->
+  <section id="photo-editor">
+    <h1>Photo Editing Tool</h1>
+    <div class="editor-container">
+      <input type="file" id="upload" />
+      <canvas id="canvas"></canvas>
+      <div class="controls">
+        <button id="crop-btn">Crop</button>
+        <button id="resize-btn">Resize</button>
+        <button id="filter-btn">Apply Filter</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h1>Features</h1>
+    <ul>
+      <li>Crop, Resize, and Apply Filters to Photos</li>
+      <li>Responsive Design for All Devices</li>
+      <li>Easy-to-use Interface</li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
